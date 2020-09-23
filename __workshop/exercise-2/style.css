@@ -1,11 +1,11 @@
-p {
-}
-
 .one {
+    background-color: pink;
 }
 
 .two {
+    background-color: magenta;
 }
 
 .three {
+    font-size: 56px;
 }

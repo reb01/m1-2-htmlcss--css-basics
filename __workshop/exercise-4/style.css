@@ -1,35 +1,57 @@
-#centered {
-  text-align: center;
+.centered {
+    text-align: center;
+    background-color: grey;
+    font-size: 2rem;
+    font-family: 'Times New Roman'
+}
+
+.centered1 {
+    text-align: center;
+    background-color: grey;
+    font-size: 1rem;
 }
 
 .title {
-  font-size: 3rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 subtitle {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .div {
-  background-color: gray;
+    background-color: grey;
 }
 
 #li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #content {
-  text-decoration: underline;
-  background: grey;
+    text-decoration: none;
+    background: grey;
 }
 
-monospaced {
-  font-family: monospace;
+.monospaced {
+    font-family: courier;
+    text-decoration: underline;
+}
+
+.underline {
+    font-family: default;
+    text-decoration: underline;
+}
+
+.list {
+    list-style: none;
+    font-family: courier;
+    text-decoration: underline;
 }
 
 h1,
 p,
 h2 {
-  background: grey;
-  margin: 0;
+    background: grey;
+    margin: 0;
 }

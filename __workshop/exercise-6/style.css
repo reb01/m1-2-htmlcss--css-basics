@@ -1,5 +1,8 @@
 /* minor CSS reset */
+
+
 /* You should not need to change anything here */
+
 html,
 body,
 div,
@@ -7,35 +10,46 @@ h1,
 h2,
 p,
 ul,
-li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
+li
 /* ADD CSS BELOW */
 
-body {
-}
+body {}
 
 h1,
-h2 {
-}
+h2 {}
 
 h1 {
+    text-align: center;
+    font-style: comic sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 h2 {
+    list-style: none;
 }
 
 .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none
 }
 
 .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px dashed #021a40;
+    margin: 10px;
 }
 
 .image {
+    max-height: 200px;
+    margin: 10px;
 }

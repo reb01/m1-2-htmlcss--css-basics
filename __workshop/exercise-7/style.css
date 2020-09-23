@@ -1,5 +1,8 @@
 /* minor CSS reset */
+
+
 /* You should not need to change anything here */
+
 html,
 body,
 div,
@@ -8,12 +11,45 @@ h2,
 p,
 ul,
 li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
+
 /* ADD CSS BELOW */
+
+* {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.smallTitle {
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    list-style: none
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px dashed #021a40;
+    margin: 10px;
+}
+
+.image {
+    max-height: 200px;
+    margin: 10px;
+}

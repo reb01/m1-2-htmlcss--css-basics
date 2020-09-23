@@ -1,15 +1,21 @@
 img {
-  max-width: 300px;
+    max-width: 300px;
 }
 
-.img1 {
+.img1 {}
+
+.img2 {}
+
+.img3 {}
+
+.img4 {}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: baseline;
 }
 
-.img2 {
-}
 
-.img3 {
-}
-
-.img4 {
 }
